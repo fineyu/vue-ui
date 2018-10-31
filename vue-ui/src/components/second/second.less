@@ -1,0 +1,100 @@
+.app{
+        // width: 100%;
+        .top{
+            width: 100%;
+            height: 200px;
+            float: left;
+                #title{
+                    width: 100%;
+                    height: 40px;
+                    line-height: 40px;
+                    background-color: #f8f8f8;    
+                    text-align: center;
+                    color: #999;
+                    font-size: 14px;
+                    z-index: 20;
+                    position: fixed;      
+
+                    .one{
+                        width: 34px;
+                        height: 34px;
+                        margin-top: 3px;
+                        margin-left:6px;
+                        background-color:firebrick;
+                    }
+                
+                }
+                .fix{
+                    position: fixed;      
+                    top: 0;     
+                    left: 0;
+                    z-index: 100;
+                }
+                .two{
+                    width: 100%;
+                    height: 100%;
+                    z-index: 1000;
+
+                }
+        }
+        .words_con{
+            width: 100%;
+            display: inline-block;
+            background-color: #eee;
+            text-align: center;
+            color: #666;
+            font-family: '微软雅黑';
+            h3{
+                padding:10px 0; 
+                width: 100%;
+                font-weight: 500;
+                font-size: 18px;
+            }
+            p{
+                width:95%;
+                padding: 10px 10px;
+                font-size: 14px;
+
+            }
+        }
+        .all{
+            width: 100%;
+            float: left;
+            background-color: #eee;
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: space-between;
+            .list{
+                width: 49.9%;
+                height: 200px;
+                background-color:#fff;
+                float: left;
+                text-align: center;
+                margin-bottom: 1px;                
+                img{
+                    width: 100%;
+                    height: 60%;
+                }
+                .list_con{
+                    width: 100%;
+                    height: 40%;
+                    overflow: hidden;
+                    color: #666;
+                    font-size: 14px;
+                    .production{
+                        margin-top: 20px;
+                        padding: 0 10px;
+                    }
+                    .price{
+                        margin-top: 10px;    
+                    }
+
+                }
+            }
+        }
+       
+   
+    // .list:nth-child(odd){
+    //     margin-right: 0.6%;
+    // }
+}
